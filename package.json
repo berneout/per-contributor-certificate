@@ -1,0 +1,9 @@
+{
+  "name": "per-contributor-certificate",
+  "version": "0.0.0",
+  "scripts": {
+    "prepublish": "npm run authors",
+    "preauthors": "awk '{print \"# \"$0}' authors/README > AUTHORS",
+    "authors": "cat $(find authors -type f -not -name README) >> AUTHORS"
+  }
+}
