@@ -1,6 +1,7 @@
 {
   "name": "per-contributor-certificate-test",
   "version": "0.0.1",
+  "repository": "berneout/per-contributor-certificate-test",
   "scripts": {
     "prepublish": "npm run authors",
     "preauthors": "awk '{print \"# \"$0}' authors/README > AUTHORS",
