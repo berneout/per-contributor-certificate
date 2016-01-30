@@ -1,7 +1,6 @@
 {
   "name": "per-contributor-certificate-test",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "prepublish": "npm run authors",
     "preauthors": "awk '{print \"# \"$0}' authors/README > AUTHORS",
