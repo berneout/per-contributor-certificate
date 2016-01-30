@@ -1,6 +1,6 @@
 {
   "name": "per-contributor-certificate-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "berneout/per-contributor-certificate-test",
   "files": [
     "AUTHORS",
